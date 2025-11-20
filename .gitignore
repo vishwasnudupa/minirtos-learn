@@ -1,0 +1,10 @@
+# Build Artifacts
+*.o
+*.bin
+*.elf
+*.map
+*.hex
+
+# Temporary Files
+*.tmp
+*.log
