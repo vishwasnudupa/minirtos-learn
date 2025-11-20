@@ -15,17 +15,17 @@ To demystify how computers work. No libraries, no HALs, no magic. Just you, the 
 
 ### Phase 1: The Foundation
 - **[Setup Guide](Setup_Guide.md)**: How to install the tools (WSL, GCC, QEMU).
-- **[Project 0: Environment Setup](Project_0_Setup/walkthrough.md)**: Creating the Makefile and Linker Script.
-- **[Project 1: Startup Code](Project_1_Startup/walkthrough.md)**: Writing the Assembly bootloader (`startup.s`) and C Runtime init.
+- **[Project 0: Environment Setup](Project_0_Setup/README.md)**: Creating the Makefile and Linker Script.
+- **[Project 1: Startup Code](Project_1_Startup/README.md)**: Writing the Assembly bootloader (`startup.s`) and C Runtime init.
     - *Theory*: **[What is an Assembly (.s) file?](Concepts_Assembly.md)**
 
 ### Phase 2: Peripherals
-- **[Project 2: UART Driver](Project_2_UART/walkthrough.md)**: Memory Mapped I/O. Writing a driver to print "Hello World".
-- **[Project 3: Interrupts](Project_3_Timers/walkthrough.md)**: Configuring the NVIC and SysTick timer.
+- **[Project 2: UART Driver](Project_2_UART/README.md)**: Memory Mapped I/O. Writing a driver to print "Hello World".
+- **[Project 3: Interrupts](Project_3_Timers/README.md)**: Configuring the NVIC and SysTick timer.
 
 ### Phase 3: Operating Systems
-- **[Project 4: Context Switching](Project_4_ContextSwitch/walkthrough.md)**: The magic of Multitasking. Manually switching CPU stacks.
-- **[Project 5: Mini-RTOS](Project_5_RTOS/walkthrough.md)**: Building a reusable Kernel with a Round-Robin Scheduler.
+- **[Project 4: Context Switching](Project_4_ContextSwitch/README.md)**: The magic of Multitasking. Manually switching CPU stacks.
+- **[Project 5: Mini-RTOS](Project_5_RTOS/README.md)**: Building a reusable Kernel with a Round-Robin Scheduler.
     - *Theory*: **[Mini-RTOS Deep Dive](MiniRTOS_DeepDive.md)**
 
 ## 🚀 How to Run
